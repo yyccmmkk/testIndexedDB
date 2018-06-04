@@ -34,9 +34,9 @@ class DB {
             let mapStore;
             if (event.oldVersion < 1) {
                 objectStore = db.createObjectStore("phones", {keyPath: "index", autoIncrement: true});
-                objectStore.createIndex("mKey", "mKey", {unique: false});//品牌
-                objectStore.createIndex("mnoKey", ['mKey', 'nKey', 'oKey'], {unique: false});//父品牌|经销商|父车系|
-                objectStore.createIndex("moKey", ['mKey', 'oKey'], {unique: false});//父品牌|父车系|
+                objectStore.createIndex("mKey", "mKey", {unique: false});
+                objectStore.createIndex("mnoKey", ['mKey', 'nKey', 'oKey'], {unique: false});
+                objectStore.createIndex("moKey", ['mKey', 'oKey'], {unique: false});
                 mapStore = db.createObjectStore('phoneMap', {keyPath: 'index', autoIncrement: true});
                 mapStore.createIndex("key", "key", {unique: true});
                 for (let v of tempData) {
