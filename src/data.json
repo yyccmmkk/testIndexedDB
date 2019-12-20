@@ -1,0 +1,86 @@
+[
+  {
+    "mKey": "1",
+    "mName": "A 华为",
+    "nKey": "11",
+    "nName": "HUAWEI Mate系列",
+    "oKey": "111",
+    "oName": "HUAWEI Mate RS 保时捷",
+    "pKey": "1111",
+    "pName": "64G",
+    "qKey": "11111",
+    "qName": "白色"
+  },
+  {
+    "mKey": "1",
+    "mName": "A 华为",
+    "nKey": "11",
+    "nName": "HUAWEI Mate系列",
+    "oKey": "111",
+    "oName": "HUAWEI Mate RS 保时捷",
+    "pKey": "1112",
+    "pName": "32",
+    "qKey": "11111",
+    "qName": "白色"
+  },
+  {
+    "mKey": "1",
+    "mName": "A 华为",
+    "nKey": "12",
+    "nName": "HUAWEI 荣耀系列",
+    "oKey": "1112",
+    "oName": "HUAWEI 荣耀30",
+    "pKey": "1112",
+    "pName": "32",
+    "qKey": "111112",
+    "qName": "黑色"
+  },
+  {
+    "mKey": "1",
+    "mName": "A 华为",
+    "nKey": "13",
+    "nName": "HUAWEI 荣耀X系列",
+    "oKey": "131",
+    "oName": "HUAWEI 荣耀30",
+    "pKey": "1112",
+    "pName": "32",
+    "qKey": "111112",
+    "qName": "黑色"
+  },
+  {
+    "mKey": "1",
+    "mName": "A 华为",
+    "nKey": "12",
+    "nName": "HUAWEI 荣耀系列",
+    "oKey": "1113",
+    "oName": "HUAWEI 荣耀30 Pro",
+    "pKey": "1112",
+    "pName": "32",
+    "qKey": "111112",
+    "qName": "黑色"
+  },
+  {
+    "mKey": "2",
+    "mName": "B 小米",
+    "nKey": "21",
+    "nName": "红米",
+    "oKey": "222",
+    "oName": "红米 保时捷",
+    "pKey": "1111",
+    "pName": "64G",
+    "qKey": "11111",
+    "qName": "白色"
+  },
+  {
+    "mKey": "2",
+    "mName": "B 小米",
+    "nKey": "11",
+    "nName": "红大米",
+    "oKey": "2223",
+    "oName": "红大米 保时捷",
+    "pKey": "1111",
+    "pName": "64G",
+    "qKey": "11111",
+    "qName": "白色"
+  }
+]

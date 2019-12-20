@@ -3,8 +3,6 @@
  */
 let path = require('path');
 let webpack = require('webpack');
-let UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
@@ -49,17 +47,6 @@ module.exports = {
          manifest: require('./pages/dist/vendors-manifest.json')
          }),*/
 
-        new CleanWebpackPlugin(['./dist'], {
-            exclude: ['vendors.dll.js', 'vendors.dll.js.map', 'vendors-manifest.json']
-        }),
-        new UglifyJsPlugin({
-            sourceMap: true,
-            uglifyOptions: {
-                output: {
-                    ascii_only: true
-                }
-            }
-        }),
         new webpack.NamedModulesPlugin(),//热更新
         new webpack.HotModuleReplacementPlugin(),//热更新
         new HtmlWebpackPlugin({
